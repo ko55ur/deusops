@@ -1,0 +1,21 @@
+sssd:x:117:124:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+nm-openvpn:x:119:125:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+saned:x:120:127::/var/lib/saned:/usr/sbin/nologin
+colord:x:121:128:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:122:129::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:123:130:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:125:7:HPLIP system user,,,:/run/hplip:/bin/false
+gdm:x:126:132:Gnome Display Manager:/var/lib/gdm3:/bin/false
+ko55ur:x:1000:1000:ko55ur,,,:/home/ko55ur:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+_rpc:x:127:65534::/run/rpcbind:/usr/sbin/nologin
+statd:x:128:65534::/var/lib/nfs:/usr/sbin/nologin
+sshd:x:129:65534::/run/sshd:/usr/sbin/nologin
+xrdp:x:130:135::/run/xrdp:/usr/sbin/nologin
+libvirt-qemu:x:64055:109:Libvirt Qemu,,,:/var/lib/libvirt:/usr/sbin/nologin
+libvirt-dnsmasq:x:131:140:Libvirt Dnsmasq,,,:/var/lib/libvirt/dnsmasq:/usr/sbin/nologin
+_snapclient:x:132:141::/var/lib/snapclient:/usr/sbin/nologin
+mysql:x:133:143:MySQL Server,,,:/nonexistent:/bin/false
+systemd-oom:x:134:144:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
